@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GPA Calculator</h1>
+    <table class="table-container">
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>Course Name</th>
+          <th>Grade</th>
+          <th>Credits</th>
+          <th>Remove Row</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be added here dynamically -->
+      </tbody>
+    </table>
+    <div class="buttons">
+      <button id="add-row-btn">Add Row</button>
+      <button id="reset-btn">Reset</button>
+      <button id="calculate-btn">Calculate GPA</button>
+    </div>
+    <p>GPA: <span id="gpa-result">0.00</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
